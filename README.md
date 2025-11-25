@@ -3,6 +3,7 @@ The following pull requests (PRs) enable the integration of Walrus, a Sui-based 
 1. Multicodec Registry Update
 
 Repository: multiformats/multicodec
+Link: https://github.com/multiformats/multicodec/pull/391
 PR: #391
 Changes:
 Added a new multicodec entry for walrus-site-ns with protoCode 0xb59910 (or finalized code post-review).
@@ -15,6 +16,7 @@ Status: Awaiting review; mock protoCode used for testing.
 2. Content-Hash Library Enhancement
 
 Repository: ensdomains/content-hash
+Link: https://github.com/ensdomains/content-hash/pull/16
 PR: #16
 Changes:
 Added walrus-ns profile to src/profiles.ts:
@@ -32,6 +34,7 @@ Purpose: Extends the @ensdomains/content-hash library to support encoding/decodi
 3. ENS App UI Support
 
 Repository: ensdomains/ens-app-v3
+Link: https://github.com/ensdomains/ens-app-v3/pull/1064
 PR: #1064
 Changes:
 Updated package.json to depend on the modified @ensdomains/content-hash.
@@ -45,6 +48,7 @@ Purpose: Enables users to set and manage Walrus site object IDs as contenthash r
 4. ENSJS Library Update
 
 Repository: ensdomains/ensjs
+Link: https://github.com/ensdomains/ensjs/pull/260
 PR: #260
 Changes:
 Updated package.json to use the modified @ensdomains/content-hash.
